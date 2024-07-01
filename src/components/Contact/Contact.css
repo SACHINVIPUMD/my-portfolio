@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 200px 0 100px;
+    align-items: center;
+}
+.contactContainer{
+    border: 1px solid white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+.contactContainer > p{
+    font-family: "Josefin sans",sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.contactContainer > p >span{
+    color: #f64c08;
+}
+.contactIcons > a > button > .MuiSvgIcon-root{
+    font-size: 35px;
+    margin-right: 10px;
+    color: white;
+}
+.contactIcons > a > .MuiIconButton-root{
+    color: white !important;
+
+}
